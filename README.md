@@ -24,6 +24,15 @@ Utilizatorii pot cere sa se adauge informatii despre anumite plante care nu exis
 
 Utilizatorii pot lasa un review legat de acuratetea informatiilor prezentate in articole. Acestia pot da si un rating de la 1 la 10. De asemenea, pot sugera si modificari.
 
+# Tehnologii folosite:
+
+- Frontend : ReactJs
+- Backend si Database : FireBase
+
 # Logo firma:
 
 ![Facebook Post 940x788 px](https://user-images.githubusercontent.com/81576888/158579776-94a63c49-33df-4c7c-ab8c-cf121295653f.png)
+
+# Wireframe:
+
+https://www.figma.com/proto/9WZwYOoRmWlRtmsVEoaz3M/The-Plant-Corner?node-id=1%3A2&scaling=min-zoom&page-id=0%3A1
