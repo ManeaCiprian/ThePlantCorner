@@ -23,3 +23,7 @@ Utilizatorii pot cere sa se adauge informatii despre anumite plante care nu exis
 # Review:
 
 Utilizatorii pot lasa un review legat de acuratetea informatiilor prezentate in articole. Acestia pot da si un rating de la 1 la 10. De asemenea, pot sugera si modificari.
+
+# Logo firma:
+
+![Facebook Post 940x788 px](https://user-images.githubusercontent.com/81576888/158579776-94a63c49-33df-4c7c-ab8c-cf121295653f.png)
