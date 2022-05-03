@@ -7,7 +7,6 @@ export const Home = () => {
     return(
         <div className='wrapper'>
             <Navbar/>
-            <Products/>
         </div>
     )
 }

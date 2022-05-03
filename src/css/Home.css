@@ -17,8 +17,8 @@
 }
 
 .navbox .leftside{
-    width: 80px;
-    height: 80px;
+    width: 160px;
+    height: 100px;
 }
 
 .navbox .leftside img{
@@ -27,13 +27,13 @@
 }
 
 .navbox .rightside{
-    display: flex;
+    display: contents;
     flex-direction: row;
 }
 
 .navbox .rightside .navlinks{
-    font-size: 12px;
+    font-size: 20px;
     color: #000;
-    font-weight: 600;
-    margin: auto 10px;
+    font-weight: 900;
+    margin: auto 55px;
 }
