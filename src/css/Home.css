@@ -37,6 +37,30 @@
     margin: auto 55px;
 }
 
+/*middle bar*/
+
+.middlebar{
+    position: relative;
+    width: 160%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 30px;
+}
+
+.middlebar .middle{
+    display: contents;
+    flex-direction: row;
+}
+
+.middlebar .middle .midlinks{
+    font-size: 20px;
+    color: #000;
+    font-weight: 900;
+    margin: auto 900px;
+}
 /*bottom bar*/
 
 .bottombar{
