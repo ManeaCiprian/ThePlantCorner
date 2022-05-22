@@ -1,22 +1,18 @@
-import * as firebase from 'firebase';
-import 'firebase/auth';
-import 'firebase/firestore';
-import 'firebase/storage';
+import {initializeApp} from 'firebase/app';
+import { getFirestore } from 'firebase/firestore';
 
 const firebaseConfig = {
-    apiKey: "AIzaSyAGNWhvo-ubh5_pmCsGo_f2iVT1anKTcu0",
-    authDomain: "the-plant-corner-252bc.firebaseapp.com",
-    databaseURL: "https://the-plant-corner-252bc-default-rtdb.firebaseio.com",
-    projectId: "the-plant-corner-252bc",
-    storageBucket: "the-plant-corner-252bc.appspot.com",
-    messagingSenderId: "213195435292",
-    appId: "1:213195435292:web:0d77868c1d885657f55ed9"
-  };
+  apiKey: "AIzaSyCU8rF57FEg_k_sTag7U3dIj9IIEthKYRg",
+  authDomain: "the-plant-corner-f4d5a.firebaseapp.com",
+  databaseURL: "https://the-plant-corner-f4d5a-default-rtdb.europe-west1.firebasedatabase.app",
+  projectId: "the-plant-corner-f4d5a",
+  storageBucket: "the-plant-corner-f4d5a.appspot.com",
+  messagingSenderId: "227281038198",
+  appId: "1:227281038198:web:afc1489b858617444ba857"
+};
  
-firebase.initializeApp(firebaseConfig);
+const app = initializeApp(firebaseConfig);
 
-const auth = firebase.auth();
-const db = firebase.firestore();
-const storage = firebase.storage();
+const db = getFirestore();
 
-export {auth,db,storage}
+export {db}
