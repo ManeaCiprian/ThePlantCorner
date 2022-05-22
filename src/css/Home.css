@@ -92,7 +92,7 @@
     width: 100%;
     height: auto;
     display: flex;
-    padding: 70px 500px;
+    padding: 80px 500px;
     background-image: url('https://images.unsplash.com/photo-1546387903-6d82d96ccca6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2071&q=80');
     background-position: center center;
     background-repeat: no-repeat;
@@ -101,4 +101,13 @@
     color: #000;
     font-style: italic;
     text-align: center;
+}
+
+.contact{
+    float: left;
+    width: 700px;
+    padding: 110px 90px; 
+    text-align: center;
+    font-size: 40px;
+    
 }
