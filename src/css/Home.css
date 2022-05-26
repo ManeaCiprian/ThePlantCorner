@@ -32,10 +32,10 @@
 }
 
 .navbox .rightside .navlinks{
-    font-size: 20px;
+    font-size: 14px;
     color: #000;
     font-weight: 900;
-    margin: auto 55px;
+    margin: auto 45px;
 }
 
 /*middle bar*/
@@ -57,7 +57,7 @@
 }
 
 .middlebar .middle .midlinks{
-    font-size: 20px;
+    font-size: 14px;
     color: #000;
     font-weight: 900;
     margin: auto 900px;

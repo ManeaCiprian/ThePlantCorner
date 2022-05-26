@@ -19,7 +19,6 @@ export const Navbar = () => {
                 <img src={logo} alt=""/>
             </div>
             <div className='rightside'>
-                <Link to='acasa' className='navlinks'><Button type='acasa'>Acasă</Button></Link>
                 <Link to='favorite' className='navlinks'><Button type='favorite'>Favorite</Button></Link>
                 <Link to='magazin' className='navlinks'><Button type='magazin'>Magazin</Button></Link>
                 <Link to='comenzilemele'className='navlinks'><Button type='comenzile mele'>Comenzile mele</Button></Link>
