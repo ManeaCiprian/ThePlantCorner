@@ -188,3 +188,9 @@
     margin-bottom: 2px;
     outline: none;
 }
+
+.error-msg{
+    color:red;
+    font-size: 12px;
+    font-weight: 600;
+}
