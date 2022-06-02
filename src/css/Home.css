@@ -38,6 +38,13 @@
     margin: auto 45px;
 }
 
+.navbox .rightside .cart-button{
+    font-size: 20px;
+    color: #e4e4e4;
+    font-weight: 1000;
+    margin: auto 50px;
+    justify-content: center;
+}
 /*middle bar*/
 
 .middlebar{

@@ -23,10 +23,6 @@ export const Products = () => {
     })
   }, [])
 
-  function convertToBlob(url) {
-    return fetch(url).then(result => result.blob().url)
-  }
-
   return (
     <table>
       <div className='products-container'>
@@ -39,7 +35,7 @@ export const Products = () => {
               {p.price}
             </div>
             <div className='product-img'>
-              <img src='convertToBlob{p.image}' alt="not found" />
+              <img src={p.image} alt="not found" />
             </div>
             <Button className='addcart-btn' >Adaugă în coș</Button><Button className='favorite'>Favorite</Button>
           </div>

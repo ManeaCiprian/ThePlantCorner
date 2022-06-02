@@ -2,6 +2,8 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import logo from '../images/logo.png'
 import styled from 'styled-components'
+import Icon from 'react-icons-kit'
+import {cart} from 'react-icons-kit/entypo/cart'
 
 const Button = styled.button`
     background-color: #A3D383;
@@ -24,6 +26,8 @@ export const Navbar = () => {
                 <Link to='comenzilemele'className='navlinks'><Button type='comenzile mele'>Comenzile mele</Button></Link>
                 <Link to='autentificare'className='navlinks'><Button type='autentificare'>Autentificare</Button></Link>
                 <Link to='logare' className='navlinks'><Button type='logare'>Logare</Button></Link>
+                <Link to='cos-de-cumparaturi' className='cart-button' ><Icon icon={cart}/></Link>
+
             </div>
         </div>
     )

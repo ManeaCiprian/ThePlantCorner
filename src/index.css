@@ -13,7 +13,7 @@ body {
     height: 100vh;
     font-family: 'Quicksand', sans-serif;
     background-image: url('https://cutewallpaper.org/23/aesthetic-minimalist-plants-desktop-wallpaper/17579297.jpg');
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-size: cover;
 }
 
