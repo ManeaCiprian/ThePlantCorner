@@ -156,6 +156,7 @@
     width: 100%;
     color: #0d5f2a;
     margin-top: 10px;
+    font-size: 30px;
 }
 
 .products-container .product-card .product-price {
@@ -163,6 +164,21 @@
     margin-top: 5px;
     color: #199c47;
     margin-bottom: 5px;
+}
+
+.products-container .product-card .product-temp {
+    width: 100%;
+    margin-top: 5px;
+    color: #199c47;
+    margin-bottom: 5px;
+}
+
+.products-container .product-card .product-img img{
+    width: 200px ; 
+    margin-top: auto;
+    color: #199c47;
+    margin-bottom: auto;
+   justify-content: center;
 }
 
 .products-container .product-card .addcart-btn {
